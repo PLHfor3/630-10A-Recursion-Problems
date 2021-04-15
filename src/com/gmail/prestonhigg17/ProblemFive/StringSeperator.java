@@ -36,13 +36,7 @@ public class StringSeperator
             + "from the earth";
     private String[] seperatedWords = s.split(" ");
 
-    public static void main(String[] args)
-    {
-        StringSeperator string = new StringSeperator();
-        string.run();
-    }
-
-    private void run()
+    public void run()
     {
         System.out.println(Arrays.toString(seperatedWords));
         for (int index = 0; index < seperatedWords.length; index++)
