@@ -1,8 +1,8 @@
-package com.gmail.prestonhigg17.ProblemTwo;
+package com.gmail.prestonhigg17.ProblemOne;
 
 import java.util.Scanner;
 
-public class Run
+public class ProblemOne
 {
     Scanner scan = new Scanner(System.in).useDelimiter("\n");
     SumOfDigits sumCalc = new SumOfDigits();
